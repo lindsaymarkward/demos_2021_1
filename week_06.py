@@ -18,6 +18,7 @@ def is_going_to_rain(rain_chances):
     for rain_chance in rain_chances:
         if rain_chance >= 50:
             return True
+    # [True for rain_chance in rain_chances if rain_chance >= 50]
     return False
 
 
